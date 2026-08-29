@@ -1,0 +1,18 @@
+{
+  "name": "everyman-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial CLI for Everyman Cinema venues, showtimes, screens, seat maps, and booking URLs",
+  "bin": {
+    "everyman": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "showtimes": "node src/cli.js showtimes",
+    "venues": "node src/cli.js venues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
